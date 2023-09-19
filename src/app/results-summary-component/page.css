@@ -1,0 +1,42 @@
+:root {
+  --light-red: 0, 100%, 67%;
+  --orangey-yellow: 39, 100%, 56%;
+  --green-teal: 166, 100%, 37%;
+  --cobalt-blue: 234, 85%, 45%;
+}
+
+.Reaction {
+  background-color: hsla(var(--light-red), 10%);
+  .title {
+    color: hsl(var(--light-red));
+  }
+}
+
+.Memory {
+  background-color: hsla(var(--orangey-yellow), 10%);
+  .title {
+    color: hsl(var(--orangey-yellow));
+  }
+}
+
+.Verbal {
+  background-color: hsla(var(--green-teal), 10%);
+  .title {
+    color: hsl(var(--green-teal));
+  }
+}
+
+.Visual {
+  background-color: hsla(var(--cobalt-blue), 10%);
+  .title {
+    color: hsl(var(--cobalt-blue));
+  }
+}
+
+.dark-gray-blue {
+  background-color: hsl(224, 30%, 27%);
+}
+
+button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
