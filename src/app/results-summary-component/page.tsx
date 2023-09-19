@@ -13,9 +13,6 @@ export default function Page() {
   return (
     <main
       className={`min-h-screen flex flex-col items-center ${font.className}`}
-      style={{
-        backgroundColor: 'hsl(221, 100%, 96%)',
-      }}
     >
       <div className="min-w-full md:min-w-0 md:flex md:my-auto md:shadow-2xl md:drop-shadow-2xl md:rounded-[2rem]">
         <Overview />
