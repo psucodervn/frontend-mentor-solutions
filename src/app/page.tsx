@@ -15,6 +15,11 @@ const challenges = [
   {
     slug: '/results-summary-component',
     title: 'Results Summary Component',
+    status: ChallengeStatus.Completed,
+  },
+  {
+    slug: '/interactive-rating-component',
+    title: 'Interactive Rating Component',
     status: ChallengeStatus.InProgress,
   },
 ]
