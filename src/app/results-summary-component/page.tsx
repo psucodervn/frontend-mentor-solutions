@@ -58,7 +58,7 @@ function Summary() {
           <Score key={item.category} {...item} />
         ))}
       </div>
-      <button className="rounded-full p-3 text-white/90 text-lg dark-gray-blue">
+      <button className="rounded-full p-3 text-white/90 text-lg dark-gray-blue hover:bg-gradient-to-b hover:from-[#7857ff] hover:to-[#2e2be9]">
         Continue
       </button>
     </div>

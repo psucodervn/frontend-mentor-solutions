@@ -36,7 +36,3 @@
 .dark-gray-blue {
   background-color: hsl(224, 30%, 27%);
 }
-
-button:hover {
-  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-}
