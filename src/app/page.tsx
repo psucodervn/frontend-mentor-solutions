@@ -20,7 +20,12 @@ const challenges = [
   {
     slug: '/interactive-rating-component',
     title: 'Interactive Rating Component',
-    status: ChallengeStatus.InProgress,
+    status: ChallengeStatus.Completed,
+  },
+  {
+    slug: '/advice-generator-app',
+    title: 'Advice Generator App',
+    status: ChallengeStatus.Completed,
   },
 ]
 
