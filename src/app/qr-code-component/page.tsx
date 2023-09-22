@@ -3,7 +3,6 @@ import { Outfit } from 'next/font/google'
 import Image from 'next/image'
 
 import qr from './_images/image-qr-code.png'
-import './page.css'
 
 const font = Outfit({
   subsets: ['latin'],
@@ -17,7 +16,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between ${font.className}`}
+      className={`flex min-h-screen flex-col items-center justify-between ${font.className} bg-[#d6e2f0]`}
     >
       <div className="min-h-screen flex items-center">
         <div className="bg-white p-3 text-center w-72 rounded-2xl gap-5 flex flex-col leading-5">

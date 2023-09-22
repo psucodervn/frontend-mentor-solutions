@@ -2,7 +2,6 @@
 
 import { Overpass } from 'next/font/google'
 import { useState } from 'react'
-import './page.css'
 
 import IconStar from './_images/icon-star.svg'
 import IllustrationThankYou from './_images/illustration-thank-you.svg'
