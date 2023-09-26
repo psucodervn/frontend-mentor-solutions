@@ -43,7 +43,7 @@ function Main() {
   })
 
   return (
-    <div className="bg-white md:flex md:items-center md:rounded-2xl md:shadow-xl md:drop-shadow-xl">
+    <div className="bg-white rounded-t-3xl md:flex md:items-center md:rounded-2xl md:shadow-xl md:drop-shadow-xl">
       <MainInput config={config} setConfig={setConfig} />
       <Result config={config} setConfig={setConfig} />
     </div>
