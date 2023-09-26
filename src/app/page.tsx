@@ -27,6 +27,11 @@ const challenges = [
     title: 'Advice Generator App',
     status: ChallengeStatus.Completed,
   },
+  {
+    slug: '/tip-calculator-app',
+    title: 'Tip Calculator App',
+    status: ChallengeStatus.Completed,
+  },
 ]
 
 export default function Home() {
